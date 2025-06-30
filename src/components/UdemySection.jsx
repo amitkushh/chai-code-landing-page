@@ -29,7 +29,10 @@ function UdemySection() {
   };
 
   return (
-    <div className="border-y-2 flex flex-col justify-center items-center py-20 px-5 lg:px-20">
+    <div
+      id="udemy"
+      className="border-y-2 flex flex-col justify-center items-center py-20 px-5 lg:px-20"
+    >
       <div className="flex flex-col justify-center items-center">
         <span className="py-2 px-4 rounded-full border">Udemy</span>
         <h2 className="text-3xl text-center md:text-5xl font-extrabold bg-linear-90 from-orange-500 via-orange-400 to-white text-transparent bg-clip-text my-5">

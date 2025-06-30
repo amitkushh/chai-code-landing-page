@@ -104,7 +104,7 @@ function CohortVideoSection() {
   ];
 
   return (
-    <div className="py-20 px-5 md:px-20 border-t-2 flex flex-col justify-center items-center">
+    <div id="cohort" className="py-20 px-5 md:px-20 border-t-2 flex flex-col justify-center items-center ">
       <div className="flex flex-col justify-center items-center">
         <span className="py-2 px-4 rounded-full border">Cohorts</span>
         <h2 className="text-3xl text-center md:text-5xl font-extrabold bg-linear-90 from-orange-500 via-orange-400 to-white text-transparent bg-clip-text my-5">

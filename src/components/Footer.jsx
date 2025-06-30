@@ -23,22 +23,40 @@ function Footer() {
             <span className="text-[#d6d5dc]">Home for programmers</span>
           </div>
           <div className="flex  items-center gap-2 text-[#d6d5dc]">
-            <a href="https://www.youtube.com/@chaiaurcode">
+            <a
+              href="https://www.youtube.com/@chaiaurcode"
+              className="hover:bg-orange-400 rounded-full p-1"
+            >
               <Youtube />
             </a>
-            <a href="https://www.instagram.com/hiteshchoudharyofficial/?hl=en">
+            <a
+              href="https://www.instagram.com/hiteshchoudharyofficial/?hl=en"
+              className="hover:bg-orange-400 rounded-full p-1"
+            >
               <Instagram />
             </a>
-            <a href="https://github.com/hiteshchoudhary">
+            <a
+              href="https://github.com/hiteshchoudhary"
+              className="hover:bg-orange-400 rounded-full p-1"
+            >
               <Github />
             </a>
-            <a href="https://x.com/hiteshdotcom">
+            <a
+              href="https://x.com/hiteshdotcom"
+              className="hover:bg-orange-400 rounded-full p-1"
+            >
               <Twitter />
             </a>
-            <a href="https://in.linkedin.com/in/hiteshchoudhary">
+            <a
+              href="https://in.linkedin.com/in/hiteshchoudhary"
+              className="hover:bg-orange-400 rounded-full p-1"
+            >
               <Linkedin />
             </a>
-            <a href="https://hitesh.ai/discord">
+            <a
+              href="https://hitesh.ai/discord"
+              className="hover:bg-orange-400 rounded-full p-1"
+            >
               <Discord />
             </a>
           </div>
